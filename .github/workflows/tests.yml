@@ -22,3 +22,6 @@ jobs:
 
       - name: Test
         run: ./vendor/bin/pest --ci
+
+      - name: Opcache inheritance regression
+        run: tests/opcache/run.sh
